@@ -95,22 +95,23 @@ SMILE.CLOUD — это облачная платформа, позволяюща
    - TaskType: `SEQ_CLS`.
    - Обучение на датасете до 1600 экземпляров, тестирование и валидация в соотношении 65% и 35% на тестировочном датасете с использованием стратификации.
    - Обучение LLM проходило со следующими параметрами:
-		```r=8,
-        lora_alpha=16,
-        lora_dropout=0.035,
-		learning_rate=2e-5,
-		bf16=True,
-		load_best_model_at_end=True,
+```python
+r=8,
+lora_alpha=16,
+lora_dropout=0.035,
+learning_rate=2e-5,
+bf16=True,
+load_best_model_at_end=True,
 ```
-
    - Обучение Bert проходило со следующими параметрами:
 
-```LORA_R = 16,
-		LORA_ALPHA = 32,
-			LORA_DROPOUT = 0.05,
-			LEARNING_RATE = 2e-4,
-			bf16=True,
-			load_best_model_at_end=True,
+```python
+LORA_R = 16,
+LORA_ALPHA = 32,
+LORA_DROPOUT = 0.05,
+LEARNING_RATE = 2e-4,
+bf16=True,
+load_best_model_at_end=True,
 ```
 
 
