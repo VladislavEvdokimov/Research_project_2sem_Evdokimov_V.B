@@ -103,9 +103,9 @@ SMILE.CLOUD — это облачная платформа, позволяюща
 		load_best_model_at_end=True,
 ```
 
-	- Обучение Bert проходило со следующими параметрами:
-		```LORA_R = 16,
-			LORA_ALPHA = 32,
+   - Обучение Bert проходило со следующими параметрами:
+```LORA_R = 16,
+		LORA_ALPHA = 32,
 			LORA_DROPOUT = 0.05,
 			LEARNING_RATE = 2e-4,
 			bf16=True,
