@@ -51,6 +51,7 @@ SMILE.CLOUD — это облачная платформа, позволяюща
 
 ### 4.2 Исследуемые подходы:
 4.2.1. **LLM с промпт-инжинирингом**
+
 Было разработано 5 различных по сложности формулировок и длине промптов. Подробнее с ними можно ознакомиться [здесь](https://github.com/VladislavEvdokimov/Research_project_2sem_Evdokimov_V.B/blob/main/prompts.txt).
 
 4.2.2. **Fine-tuning LLM моделей LoRa методом**
