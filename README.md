@@ -51,7 +51,7 @@ SMILE.CLOUD — это облачная платформа, позволяюща
 
 ### 4.2 Исследуемые подходы:
 4.2.1. **LLM с промпт-инжинирингом**
-
+Было разработано 5 различных по сложности формулировок и длине промптов. Подробнее с ними можно ознакомиться [здесь](https://github.com/VladislavEvdokimov/Research_project_2sem_Evdokimov_V.B/blob/main/prompts.txt).
 
 4.2.2. **Fine-tuning LLM моделей LoRa методом**
    - Выбранные модели:
@@ -70,7 +70,8 @@ SMILE.CLOUD — это облачная платформа, позволяюща
     "yandex/YandexGPT-5-Lite-8B-instruct",
 	
 4.2.3. **Fine-tuning Bert моделей LoRa методом**
-   - Выбранные модели:     
+   - Выбранные модели:
+     
     "ai-forever/ruRoberta-large",
     "sentence-transformers/LaBSE",
     "ai-forever/sbert_large_nlu_ru",
@@ -98,15 +99,17 @@ SMILE.CLOUD — это облачная платформа, позволяюща
         lora_dropout=0.035,
 		learning_rate=2e-5,
 		bf16=True,
-		load_best_model_at_end=True,```
-		
+		load_best_model_at_end=True,
+```
+
 	- Обучение Bert проходило со следующими параметрами:
 		```LORA_R = 16,
 			LORA_ALPHA = 32,
 			LORA_DROPOUT = 0.05,
 			LEARNING_RATE = 2e-4,
 			bf16=True,
-			load_best_model_at_end=True,```
+			load_best_model_at_end=True,
+```
 
 
 ### 4.3 Среднее время ответа:
